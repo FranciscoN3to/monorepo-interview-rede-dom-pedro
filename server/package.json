@@ -1,5 +1,5 @@
 {
-  "name": "interview-dompedro",
+  "name": "@monorepo-rede-dom-pedro/interview-dompedro",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/rededompedro/interview-dompedro.git",
@@ -7,5 +7,11 @@
   "license": "MIT",
   "scripts": {
     "start": "node ."
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7"
   }
 }

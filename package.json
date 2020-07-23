@@ -1,0 +1,15 @@
+{
+  "name": "monorepo-rede-dom-pedro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "client",
+      "server"
+    ]
+  },
+  "repository": "https://github.com/rededompedro/dompedro-interview.git",
+  "author": "FranciscoN3to <franciscojf@gmail.com>",
+  "license": "MIT" 
+}
