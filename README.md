@@ -16,6 +16,14 @@ In the project directory, you can run:
 
 ### `yarn`
 
-## Knex
+## local: 'client'
 
-### `yarn knex migrate:up`
+### `yarn`
+
+### Knex
+
+#### `yarn knex migrate:up`
+
+### `yarn start`
+
+http://localhost:4000/
