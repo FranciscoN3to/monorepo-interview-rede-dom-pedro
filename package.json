@@ -16,9 +16,11 @@
   "devDependencies": {
     "@monorepo-rede-dom-pedro/eslint-config": "*",
     "@types/axios": "^0.14.0",
+    "@types/moment": "^2.13.0",
     "typescript": "^3.9.7"
   },
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "moment": "^2.27.0"
   }
 }

@@ -1,6 +1,8 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin')
+//const ExtractTextPlugin = require('extract-text-webpack-plugin');
+//const extractLess = new ExtractTextPlugin(`style.[hash].css`);
 
 const isDevelopment = process.env.NODE_ENV !== 'production'
 
@@ -13,12 +15,17 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(js|ts|tsx)$/,
+        test: /\.(js|ts|tsx|css)$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader'
         }
-      }
+      },
+      {      
+        test: /\.css$/,  
+        use: 'css-loader',
+        include: [path.resolve(__dirname, 'src')]
+      } 
     ]
   },
   devServer: {

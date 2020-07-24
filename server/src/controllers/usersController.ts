@@ -1,4 +1,5 @@
 import knex from '../database'
+import { now } from 'moment'
 
 const request = async (req, res) => {
   const results = await knex('users')
@@ -18,7 +19,9 @@ const create = async (req, res, next) => {
       email
     })
 
-    return res.status(201).send()
+    const results = await knex('users').where({ name, email })
+
+    return res.status(201).send(results[0])
   } catch (error) {
     next(error)
   }

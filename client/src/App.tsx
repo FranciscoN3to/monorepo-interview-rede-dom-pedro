@@ -1,9 +1,7 @@
 import React from 'react'
-
-// import { Container } from './styles';
-
+import Users from './pages/users'
 const App: React.FC = () => {
-  return <p>Roi, letici, né ?</p>
+  return <Users />
 }
 
 export default App
