@@ -14,7 +14,11 @@
   "author": "FranciscoN3to <franciscojf@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^3.9.7",
-    "@monorepo-rede-dom-pedro/eslint-config": "*"
+    "@monorepo-rede-dom-pedro/eslint-config": "*",
+    "@types/axios": "^0.14.0",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
   }
 }

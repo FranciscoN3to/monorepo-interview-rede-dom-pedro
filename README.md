@@ -4,7 +4,7 @@
 
 - [ ] Front-end application that includes the following fields: Name, E-mail and Created At
 
-- [ ] Send data to a back-end API written in Node.js
+- [x] Send data to a back-end API written in Node.js
 
 - [ ] Persist data in mysql
 

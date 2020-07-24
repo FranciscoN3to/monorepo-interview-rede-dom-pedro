@@ -1,9 +1,9 @@
-import React from 'react';
+import React from 'react'
 
 // import { Container } from './styles';
 
 const App: React.FC = () => {
-  return <p>Roi, leticia, né ?</p>;
+  return <p>Roi, letici, né ?</p>
 }
 
-export default App;
+export default App
