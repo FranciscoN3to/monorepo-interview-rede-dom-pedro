@@ -20,10 +20,14 @@ In the project directory, you can run:
 
 ### `yarn`
 
-### Knex
-
 #### `yarn knex migrate:up`
 
 ### `yarn start`
 
 http://localhost:4000/
+
+## local: 'server'
+
+### `yarn start`
+
+http://localhost:3000/
