@@ -6,10 +6,15 @@
   "workspaces": {
     "packages": [
       "client",
-      "server"
+      "server",
+      "eslint-config"
     ]
   },
   "repository": "https://github.com/rededompedro/dompedro-interview.git",
   "author": "FranciscoN3to <franciscojf@gmail.com>",
-  "license": "MIT" 
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.9.7",
+    "@monorepo-rede-dom-pedro/eslint-config": "*"
+  }
 }
