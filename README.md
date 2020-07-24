@@ -20,7 +20,7 @@ In the project directory, you can run:
 
 ### `yarn`
 
-#### `yarn knex migrate:up`
+### `yarn knex migrate:up`
 
 ### `yarn start`
 
