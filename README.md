@@ -16,7 +16,7 @@ In the project directory, you can run:
 
 ### `yarn`
 
-## local: 'client'
+## path: 'client'
 
 ### `yarn`
 
@@ -26,7 +26,7 @@ In the project directory, you can run:
 
 http://localhost:4000/
 
-## local: 'server'
+## path: 'server'
 
 ### `yarn start`
 
