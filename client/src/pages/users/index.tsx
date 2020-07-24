@@ -43,7 +43,8 @@ const users: React.FC = () => {
         name: stateForm.name
       })
       .then(({ data }: any) => {
-        setData([...dataList, data])
+        const newData = dataList.length > 0 ? [...dataList, data] : [data]
+        setData(newData)
       })
   }
 
